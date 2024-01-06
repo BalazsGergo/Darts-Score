@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;		
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image/darts.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+
+select {
+    height: 35px;
+    
+}
+
+.container-score {
+    display: flex;
+    gap: 25px;
+}
+
+.container-number {
+    display: flex;
+    gap: 25px;
+}
+
+input {
+    height: 35px;
+    width: 80px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
